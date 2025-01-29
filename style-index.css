@@ -10,3 +10,8 @@ body{
 header{
     background: linear-gradient(to right, #b2caa8,#cfd6b4 );
 }
+
+
+nav a {
+    text-decoration: none;
+}
