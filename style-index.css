@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+
 body{
     font-family: "Shadows Into Light", serif; 
     color: #4c6d74;
@@ -18,4 +19,10 @@ nav a {
 
 main {
     text-align:center
+}
+
+#cabecalho {
+    font-family: "Shadows Into Light", serif;
+    color:#4c6d74;
+    text-align:center;
 }
