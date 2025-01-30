@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
 
 *{
     margin:0;
@@ -10,7 +11,7 @@
 body{
     font-family: "Nunito", serif; 
     color: #4c6d74;
-    background-color: #faf2e8;
+    background-color:antiquewhite;
     font-weight: 400;
 }
 body a{
@@ -18,7 +19,7 @@ body a{
     color:#4c6d74
 }
 body a:hover{
-    color:rgb(218, 164, 50);
+    color:antiquewhite
 }
 
 header{
@@ -26,8 +27,18 @@ header{
     text-align: center;
     padding-top:20px;
     padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
 
 nav a {
     text-decoration: none;
@@ -37,7 +48,7 @@ nav a {
 }
 
 nav a:hover {
-    color:rgb(218, 164, 50);
+    color:#fffefd;
     margin: 0, 20;
 
 }
@@ -48,15 +59,16 @@ main {
 }
 
 
-
 #cabecalho {
    
-    font-family: "Shadows Into Light", serif;
+    font-family: "Barriecito", serif;
     color:#4c6d74;
     text-align:center;
     margin-top: 20px;
     margin-bottom: 16px;
+    font-size: 50px;
 }
+
 #cabecalho a {
     text-decoration: none;
     color:#4c6d74
@@ -67,6 +79,59 @@ h1 {
     padding: 25px;
 }
 
+/*Tabela!*/
+
+.table-responsive{
+    width: 100%;
+    overflow-x: auto;
+}
+table{
+
+}
+
+.main-container{
+    display:flex;
+    background-color:#dbc7ac;
+    gap: 20px;
+    max-width: 100px;
+    margin:auto;
+    flex-wrap:wrap;
+}
+.main-container h2 {
+    color:#12262b;
+    padding:5px;
+    font-weight: 450;
+}
+
+.main-container p{
+    color:rgb(26, 27, 31)
+}
+
+.main-block{
+    background-color:#dbc7ac;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    justify-content: center;
+    box-shadow:0 4px 6px;
+    align-items: center;
+    padding: 20px;
+ }
+
+.main-block a{
+    color:#4c6d74;
+    background-color:antiquewhite;
+    border-radius: 15px;
+    padding: 5px 12px;
+    max-width: 150px;
+    transition: all 0.5s;
+}
+
+.main-block a:hover{
+    color:#4c6d74;
+    background-color:#daa432;
+}
 #topo{
     padding-top: 20px;
 }
