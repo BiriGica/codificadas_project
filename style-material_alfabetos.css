@@ -150,6 +150,21 @@ figure img{
     color:antiquewhite;
     background-color:#daa432;
 }
+
+/*footer*/
+footer{
+    text-align: center;
+}
+
+footer a{
+    color:#4c6d74;
+}
+
+footer a:hover{
+    color:#daa432;
+}
+
+
 #topo{
     padding-top: 20px;
 }
