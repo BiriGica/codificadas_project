@@ -161,3 +161,10 @@ figure img{
     color:rgb(218, 164, 50);
 }
 
+@media (max-width: 600px){
+    figure img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}                    
