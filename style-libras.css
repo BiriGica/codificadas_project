@@ -147,6 +147,7 @@ figure img{
 .menu2 a:hover{
     background-color: #daa432;
     color:antiquewhite;
+}
 
 .main-container{
     display:flex;
@@ -223,4 +224,4 @@ footer a:hover{
         height: auto;
         border-radius: 5px;
     }
-}}
+}
