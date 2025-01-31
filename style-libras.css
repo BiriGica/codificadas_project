@@ -51,6 +51,11 @@ td a{
     font-weight: 700;
 }
 
+td a:hover{
+    text-decoration: none;
+    color:#daa432;
+}
+
 
 
 nav a {

@@ -148,12 +148,16 @@ figure img{
 }
 
 /*footer*/
+footer{
+    text-align: center;
+}
+
 footer a{
-    color:#4c6d74
+    color:#4c6d74;
 }
 
 footer a:hover{
-    color:#daa432
+    color:#daa432;
 }
 
 /*"Volte ao topo*/
