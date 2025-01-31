@@ -79,6 +79,10 @@ h1 {
     padding: 25px;
 }
 
+h2 {
+    text-align:center;
+    padding: 20px;
+}
 /*Imagens!*/
 
 figure{
@@ -89,6 +93,7 @@ figure img{
     width: 550px;
     height: auto;
     border-radius: 5px;
+    padding: 25px;
 }
 
 .menu a{
@@ -120,7 +125,6 @@ figure img{
     color:rgb(26, 27, 31)
 }
 
-/*main-block*/
 .main-block{
     background-color:#dbc7ac;
     border-radius: 10px;
@@ -146,17 +150,6 @@ figure img{
     color:antiquewhite;
     background-color:#daa432;
 }
-
-/*footer*/
-footer a{
-    color:#4c6d74
-}
-
-footer a:hover{
-    color:#daa432
-}
-
-/*"Volte ao topo*/
 #topo{
     padding-top: 20px;
 }

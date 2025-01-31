@@ -79,6 +79,14 @@ h1 {
     padding: 25px;
 }
 
+p {
+    padding: 20px;
+}
+
+small {
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
 /*Imagens!*/
 
 figure{
